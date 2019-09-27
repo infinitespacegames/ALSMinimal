@@ -1,0 +1,25 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "EngineVersion": "4.22.0",
+  "FriendlyName": "MiniMap",
+  "Description": "Mini Map plugin for UE4 based games",
+  "Category": "InfiniteSpaceGames",
+  "CreatedBy": "CaptAnarchy",
+  "CreatedByURL": "",
+  "DocsURL": "",
+  "MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/",
+  "SupportURL": "",
+  "CanContainContent": true,
+  "IsBetaVersion": false,
+  "Installed": false,
+  "Modules": [
+    {
+      "Name": "MiniMapModule",
+      "Type": "Runtime",
+      "LoadingPhase": "Default",
+      "BlacklistPlatforms": [ "IOS" ]
+    }
+  ]
+}

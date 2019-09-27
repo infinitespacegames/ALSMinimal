@@ -17,5 +17,8 @@ public class LocoBase : ModuleRules
             "Slate",
             "SlateCore"
         });
+
+        PrivateDependencyModuleNames.AddRange(new string[] { "MiniMapModule" });
+
     }
 }
